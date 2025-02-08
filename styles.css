@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    /* doar cand ai nevoie  */
+    height:100vh;
+
+
+    /* setare background */
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    height: 60vh;
+}
+
+
+#votes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+}
+
+#votes img{
+    width: 35px;
+    height: auto;
+}
+
+#votes p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#chapter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex: 6;
+}
+
+#chapter p{
+   line-height: 40px;
+}
+
+#chapter button{
+    width: 200px;
+    background-color: #AB7A3E;
+    border-radius: 100px;
+    padding: 10px;
+    color: #FFF;
+    border: 2px solid rgba(0,0,0,0);
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: 2px solid transparent; /* Al doilea contur */
+    box-shadow: 0 0 0 3px white; /* Adaugă un efect subtil de dublu contur */
+
+}
+
+
+#bookmarks{
+    flex: 1;
+
+}
