@@ -17,6 +17,21 @@ nav{
     justify-content: space-between;
 }
 
+nav #title{
+    text-align: center;
+    color: #BB903C;
+}
+
+nav h1{
+    font-size: 48px;
+    margin: 0px;
+}
+nav h2{
+    font-size: 96px;
+    margin: 0px;
+}
+
+
 section{
     display: flex;
     height: 60vh;
@@ -73,5 +88,14 @@ section{
 
 #bookmarks{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+#bookmarks img{
+    width: 30px;
+    height: auto;
 }
